@@ -102,7 +102,14 @@
                 <module>subsonic-assembly</module>
             </modules>
         </profile>
-
+        <profile>
+            <id>debian</id>
+            <modules>
+                <module>subsonic-booter</module>
+                <module>subsonic-installer-debian</module>
+                <module>subsonic-assembly</module>
+            </modules>
+        </profile>
     </profiles>
 
     <build>
